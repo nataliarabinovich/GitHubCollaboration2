@@ -34,7 +34,8 @@ struct ContentView: View {
             
             Spacer()
             Divider()
-                .padding(.bottom, 10.0)
+                .frame(height: 3.0)
+                .background(Color.gray)
            
             HStack{
                 Button("🏠") {
