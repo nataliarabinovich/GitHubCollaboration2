@@ -8,22 +8,47 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("Change 1")
-            Text("Change 2")
-            Text("Change 3")
-            Text("Change 4")
-            Text("Change-Rebecca")
-        }
-        .padding()
+  var body: some View {
+    VStack {
+      Text("AthlEats")
+            .padding(108.0)
+        .font(.largeTitle)
+        .fontWeight(.semibold)
+    //  Image(systemName: "globe")
+         //.imageScale(.large)
+      //  .foregroundStyle(.tint)
+      Text("Welcome back, name")
+      Button("Quiz") {
+         
+          
+      }
     }
+   
+  }
+
+    
+ 
+        
+       
+        }
+    
+                            
+                        
+        
+    
+#Preview {
+  ContentView()
 }
 
-#Preview {
-    ContentView()
-}
+
+
+
+
+
+
+
+
+
+
+
+
