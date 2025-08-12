@@ -21,10 +21,10 @@ struct ChooseYourSport: View {
             Button("Soccer") {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
             }
+            .padding(.all)
             .font(.title2)
             .border(.black ,width: 1)
-            .cornerRadius(8)
-            .padding()
+//            button.contentEdgeInsets = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
             Spacer()
                 
         
