@@ -10,75 +10,104 @@ import UIKit
 
 struct ChooseYourSport: View {
     var body: some View {
+        VStack {
+        VStack{
             Text("Choose Your Sport")
                 .font(.title)
                 .fontWeight(.heavy)
             Divider()
                 .frame(height: 4)
                 .overlay(Color.black)
-            Spacer()
-ScrollView{
-
-            VStack{
-                Button("Soccer                             ⚽️") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                .padding(.all)
-                .font(.title2)
-                .border(.black ,width: 4)
-                .cornerRadius(8)
-                .foregroundColor(Color.black)
-                .fontWeight(.bold)
-                
-                
-                .padding()
-                
-                Button("Swim                                🏊‍♀️") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                .padding(.all)
-                .font(.title2)
-                .border(.black ,width: 4)
-                .cornerRadius(8)
-                .foregroundColor(Color.black)
-                .fontWeight(.bold)
-                
-                .padding()
-                
-                Button("Dance                              💃") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                .padding(.all)
-                .font(.title2)
-                .border(.black ,width: 4)
-                .cornerRadius(8)
-                .foregroundColor(Color.black)
-                .fontWeight(.bold)
-                
-                
-                .padding()
-                
-                Button("Tennis                              🎾") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                .padding(.all)
-                .font(.title2)
-                .border(.black ,width: 4)
-                .cornerRadius(8)
-                .foregroundColor(Color.black)
-                .fontWeight(.bold)
-                
-                
-                .padding()
-                
-                Spacer()
-                
-                
+           // Spacer()
+        }
+        .background {
+            Color(.white)
+               .ignoresSafeArea()
+       }
+        ScrollView {
+            VStack {
+                    Button("Soccer                             ⚽️") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    }
+                    .padding(.all)
+                    .font(.title2)
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                    .background(
+                        RoundedRectangle(cornerRadius: 8)
+                            .fill(Color(hue: 0.437, saturation: 0.59, brightness: 0.571))
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(Color(hue: 0.435, saturation: 0.587, brightness: 0.394), lineWidth: 4)
+                    )
+                    .padding()
+                    
+                    
+                    Button("Swim                                🏊‍♀️") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    }
+                    .padding(.all)
+                    .font(.title2)
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                    .background(
+                        RoundedRectangle(cornerRadius: 8)
+                            .fill(Color(hue: 0.907, saturation: 0.19, brightness: 0.915))
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(Color(hue: 0.904, saturation: 0.19, brightness: 0.73), lineWidth: 4)
+                    )
+                    .padding()
+                    
+                    Button("Dance                              💃") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    }
+                    .padding(.all)
+                    .font(.title2)
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                    .background(
+                        RoundedRectangle(cornerRadius: 8)
+                            .fill(Color(hue: 0.437, saturation: 0.59, brightness: 0.571))
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(Color(hue: 0.435, saturation: 0.587, brightness: 0.394), lineWidth: 4)
+                    )
+                    .padding()
+                    
+                    Button("Tennis                              🎾") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    }
+                    .padding(.all)
+                    .font(.title2)
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                    .background(
+                        RoundedRectangle(cornerRadius: 8)
+                            .fill(Color(hue: 0.907, saturation: 0.19, brightness: 0.915))
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(Color(hue: 0.904, saturation: 0.19, brightness: 0.73), lineWidth: 4)
+                    )
+                    .padding()
+                    Spacer()
+                    
+                    
             }//end of Vstack
-}//end of Scroll View
+                
+        }//end of Scroll View
+        }//end of Vstack
+        .background {
+            Color(hue: 0.600, saturation: 0.302, brightness: 1.1)
+                .ignoresSafeArea()
+        }
+    }//end of var body: Some view
+}//end of struct ChooseYourSport
 
-        }//end of var body: Some view
-    }//end of struct ChooseYourSport
 #Preview {
     ChooseYourSport()
 }
