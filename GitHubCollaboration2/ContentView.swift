@@ -10,15 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Text("AthlEats")
+                
+                .padding()
+                .font(.largeTitle)
+                .fontWeight(.semibold)
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("Change 1")
-            Text("Change 2")
-            Text("Change 3")
-            Text("Change 4")
-            Text("Change-Natalia")
+            Text("Welcome back, name")
+          
+            Button("Quiz") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                
+            }
+            
         }
         .padding()
     }
