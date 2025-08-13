@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BD788B7F2E4CFD9B00BA62C4 /* Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD788B7E2E4CFD9B00BA62C4 /* Soccer.swift */; };
+		BD788B812E4CFDA700BA62C4 /* Swim.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD788B802E4CFDA700BA62C4 /* Swim.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		BD788B7E2E4CFD9B00BA62C4 /* Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer.swift; sourceTree = "<group>"; };
+		BD788B802E4CFDA700BA62C4 /* Swim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swim.swift; sourceTree = "<group>"; };
 		BD97499F2E4B7B2200BC999B /* GitHubCollaboration2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubCollaboration2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +39,8 @@
 		BD9749962E4B7B2200BC999B = {
 			isa = PBXGroup;
 			children = (
+				BD788B7E2E4CFD9B00BA62C4 /* Soccer.swift */,
+				BD788B802E4CFDA700BA62C4 /* Swim.swift */,
 				BD9749A12E4B7B2200BC999B /* GitHubCollaboration2 */,
 				BD9749A02E4B7B2200BC999B /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD788B812E4CFDA700BA62C4 /* Swim.swift in Sources */,
+				BD788B7F2E4CFD9B00BA62C4 /* Soccer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

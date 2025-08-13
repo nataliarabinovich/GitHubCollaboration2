@@ -9,22 +9,36 @@ import SwiftUI
 
 struct Recipes: View {
     var body: some View {
-        Text("Recipes")
-            .font(.title)
-            .padding(.bottom, 0.0)
-        List {
-            Text("Protein-Packed")
-                .lineLimit(6)
+        NavigationStack{
+            
+            Text("Recipes")
+            
+                .font(.title)
+                .padding(.bottom, 0.0)
+            List {
+                NavigationLink(destination: ProteinPacked()) {
+                    Text("Protein-Packed")
+                        .lineLimit(6)
+                }
                 .padding(.vertical, 15.0)
-            Text("Low-Carb")
-                .padding(.vertical, 15.0)
-            Text("Low-Sugar")
-                .padding(.vertical, 15.0)
-        }
-
+                NavigationLink(destination: LowCarb()) {
+                    Text("Low-Carb")
+                        .padding(.vertical, 15.0)
+                }
+                NavigationLink(destination: LowSugar()) {
+                    Text("Low-Sugar")
+                        .padding(.vertical, 15.0)
+                }
+            }
+                
+                
+            }
+       // .navigationTitle("Recipes")
+        //   .navigationBarHidden(true)
         
+        }
     }
-}
+
 
 #Preview {
     Recipes()
