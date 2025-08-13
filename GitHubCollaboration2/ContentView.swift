@@ -18,17 +18,18 @@ struct ContentView: View {
             //  Image(systemName: "globe")
             // .imageScale(.large)
             //  .foregroundStyle(.tint)
-            Text("Welcome back, name")
+            Text("Welcome back, Karlie")
                 .font(.title2)
                 .fontWeight(.medium)
                 .padding(.vertical, 200.0)
-            Button("Quiz") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                
-            }
-            .frame(width: 80.0, height: 30.0)
             
-            .border(.blue)
+            NavigationStack{
+                NavigationLink(destination: Quiz()) {
+                    Text("Quiz")
+                }
+            }
+           // .frame(width: 80.0, height: 30.0)
+           // .border(.blue)
             
             // .padding([.top, .leading, .bottom])
             
@@ -36,35 +37,37 @@ struct ContentView: View {
             Divider()
                 .frame(height: 3.0)
                 .background(Color.gray)
-           
-            HStack{
-                Button("🏠") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                .font(.system(size: 30))
-                .padding(.vertical)
+            NavigationStack{
                 
-                Button("    ⚽️") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                .font(.system(size: 30))
-                .padding(.vertical)
+                HStack{
+                    NavigationLink(destination: ContentView()) {
+                        Text("    🏠")}
+                    
+                    .font(.system(size: 40))
+                    .padding(.vertical)
+                    
+                    NavigationLink(destination: ChooseYourSport()) {
+                        Text("    ⚽️")}
+                    .font(.system(size: 40))
+                    .padding(.vertical)
+                    
+                    NavigationLink(destination: Recipes()) {
+                        Text("   🍴")}
+                    .font(.system(size: 40))
+                    .padding(.vertical)
+                    
+                    NavigationLink(destination: MyHealth()) {
+                        Text("   ❤️")}
+                    .font(.system(size: 40))
+                    .padding(.vertical)
+                }//end navstack
+                .navigationTitle("Home")
+                .navigationBarHidden(true)
                 
-                Button("     🍴") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                .font(.system(size: 30))
-                .padding(.vertical)
-                
-                Button("    ❤️") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                .font(.system(size: 30))
-                .padding(.vertical)
-                
-                
-            }
+            }//end HStack
+            
         }
+        
     }
 }
 
