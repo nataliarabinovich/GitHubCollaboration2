@@ -39,22 +39,22 @@ struct ContentView: View {
                 Button("🏠") {
                     
                 }
-                .font(.system(size: 30))
+                .font(.system(size: 40))
                 .padding(.vertical)
                 Button("  ⚽️") {
                     /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
                 }
-                .font(.system(size: 30))
+                .font(.system(size: 40))
                 .padding(.vertical)
                 Button("  🍴") {
                     /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
                 }
-                .font(.system(size: 30))
+                .font(.system(size: 40))
                 .padding(.vertical)
                 Button("  ❤️") {
                     /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
                 }
-                .font(.system(size: 30))
+                .font(.system(size: 40))
                 .padding(.vertical)
             }
         }
