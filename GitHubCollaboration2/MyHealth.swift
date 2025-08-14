@@ -30,7 +30,15 @@ struct MyHealth: View {
    Text("Meal Tracker:")
    .font(.system(size: 30))
    .fontWeight(.bold)
-  Text("Add meal +")
+      Menu("Add Meal +") {
+          
+          Text("Breakfast +")
+              .foregroundColor(Color.purple)
+          Text("Lunch +")
+          Text("Dinner +")
+      }
+
+//  Text("Add meal +")
   Spacer()
   Spacer()
   Text("Daily Steps:")
