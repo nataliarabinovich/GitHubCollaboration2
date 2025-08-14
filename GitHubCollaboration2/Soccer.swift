@@ -4,7 +4,6 @@
 //
 //  Created by Scholar on 8/13/25.
 //
-
 import SwiftUI
 struct Soccer: View {
   var body: some View {
@@ -12,9 +11,9 @@ struct Soccer: View {
       .font(.title)
       .fontWeight(.semibold)
     List {
-      Link("", destination: URL(string: "")!)
+      Link(" ", destination: URL(string: "")!)
       Link("!", destination: URL(string: "")!)
-      Link("", destination: URL(string: "")!)
+      Link(" ", destination: URL(string: "")!)
     }
   }
 }

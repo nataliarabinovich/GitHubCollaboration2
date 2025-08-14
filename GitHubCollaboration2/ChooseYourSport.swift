@@ -119,7 +119,7 @@ struct ChooseYourSport: View {
          .stroke(Color(hue: 0.904, saturation: 0.19, brightness: 0.73), lineWidth: 4)
        )
        .padding()
-       Text("Football:football:       →")
+       Text("Football 🏈       →")
        .padding(.all)
        .font(.title2)
        .foregroundColor(.white)
@@ -133,7 +133,7 @@ struct ChooseYourSport: View {
          .stroke(Color(hue: 0.435, saturation: 0.587, brightness: 0.394), lineWidth: 4)
        )
        .padding()
-       Button("Basketball:basketball:     →") {
+       Button("Basketball 🏀     →") {
         /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
        }
        .padding(.all)
@@ -149,7 +149,7 @@ struct ChooseYourSport: View {
          .stroke(Color(hue: 0.904, saturation: 0.19, brightness: 0.73), lineWidth: 4)
        )
        .padding()
-       Text("Hockey:ice_hockey_stick_and_puck:        →")
+       Text("Hockey 🏒        →")
        .padding(.all)
        .font(.title2)
        .foregroundColor(.white)

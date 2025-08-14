@@ -14,7 +14,7 @@ struct ProteinPacked: View {
             .fontWeight(.semibold)
         List {
             Link("Lemon Brown Butter Salmon", destination: URL(string: "https://www.delish.com/cooking/recipe-ideas/a63205276/lemon-brown-butter-salmon-recipe/")!)
-            Link("Chicken Stir-Fry!", destination: URL(string: "https://www.delish.com/cooking/recipe-ideas/a45362568/best-chicken-stir-fry-recipe/")!)
+            Link("Chicken Stir-Fry", destination: URL(string: "https://www.delish.com/cooking/recipe-ideas/a45362568/best-chicken-stir-fry-recipe/")!)
             Link("Garlic Shrimp and Veggies", destination: URL(string: "https://www.delish.com/cooking/recipes/a51341/sheet-pan-garlicky-shrimp-and-veggies-recipe/")!)
         }
         .padding(.bottom, 100.0)//end of list

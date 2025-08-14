@@ -25,5 +25,5 @@ struct LowSugar: View {
 
 
 #Preview {
-    ProteinPacked()
+    LowSugar()
 }
