@@ -21,7 +21,7 @@ struct LowSugar: View {
         
         
     }//end of body
-}//end of struct ProteinPacked
+}/
 
 
 #Preview {
