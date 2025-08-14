@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProteinPacked: View {
     var body: some View {
-        Text("Protein-Packed")
+        Text("Protein-Packed Recipes")
             .font(.title)
             .fontWeight(.semibold)
         List {
