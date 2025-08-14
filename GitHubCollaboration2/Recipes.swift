@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Recipes: View {
     var body: some View {
+     
         NavigationStack{
             
             Text("Recipes")

@@ -21,7 +21,7 @@ struct LowSugar: View {
         
         
     }//end of body
-}/
+}//
 
 
 #Preview {

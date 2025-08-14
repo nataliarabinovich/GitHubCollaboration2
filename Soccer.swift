@@ -6,13 +6,18 @@
 //
 
 import SwiftUI
-
 struct Soccer: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  var body: some View {
+    Text("Soccer Videos")
+      .font(.title)
+      .fontWeight(.semibold)
+    List {
+      Link("", destination: URL(string: "")!)
+      Link("!", destination: URL(string: "")!)
+      Link("", destination: URL(string: "")!)
     }
+  }
 }
-
-#Preview {
+  #Preview {
     Soccer()
-}
+  }
