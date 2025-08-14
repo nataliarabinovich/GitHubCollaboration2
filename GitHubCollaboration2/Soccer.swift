@@ -11,9 +11,9 @@ struct Soccer: View {
       .font(.title)
       .fontWeight(.semibold)
     List {
-      Link(" ", destination: URL(string: "")!)
-      Link("!", destination: URL(string: "")!)
-      Link(" ", destination: URL(string: "")!)
+      Link("Beginner Soccer Video", destination: URL(string: "https://www.youtube.com/watch?v=naEccnjzLxM")!)
+      Link("!", destination: URL(string: "https://www.youtube.com/watch?v=naEccnjzLxM")!)
+      Link("", destination: URL(string: "https://www.youtube.com/watch?v=naEccnjzLxM")!)
     }
   }
 }

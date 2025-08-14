@@ -172,8 +172,8 @@ struct ChooseYourSport: View {
      .ignoresSafeArea()
    }
   }//end of navstack
-   .navigationTitle("Choose Your Sport")
-   .navigationBarHidden(true)
+   .navigationTitle("")
+   //.navigationBarHidden(true)
   }//end of var body: Some view
  }//end of struct ChooseYourSport
 #Preview {
